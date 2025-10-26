@@ -1,16 +1,87 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Section Design</title>
+    <style>
+        /* Base page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5; /* Required page background color */
+        }
 
+        /* Main Container: Holds the testimonials */
+        .testimonial-container {
+            max-width: 800px;
+            margin: 50px auto; /* Center the container horizontally */
+            padding: 30px;
+            background-color: white; /* White background for the main content area */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        /* Section Heading */
+        .testimonial-container h2 {
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            font-weight: bold;
+            border-bottom: 2px solid #333; /* Underline effect from the image */
+            display: inline-block; /* Confines the border to the text width */
+            padding-bottom: 5px;
+        }
+
+        /* Individual Testimonial Box */
+        .testimonial-box {
+            background-color: #fcfcfc; /* Very light background for individual box */
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        /* Testimonial Text */
+        .testimonial-text {
+            font-size: 1em;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 10px;
+            /* Normal styling required */
+        }
+
+        /* Author's Name Styling */
+        .testimonial-author {
+            display: block;
+            text-align: right; /* Required alignment */
+            font-style: italic; /* Required style */
+            color: #555;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="testimonial-container">
+        <h2>Testimonials</h2>
+
+        <!-- Testimonial 1 -->
+        <div class="testimonial-box">
+            <p class="testimonial-text">
+                This product is amazing! I highly recommend it to anyone in need of a solution like this.
+            </p>
+            <span class="testimonial-author">- John Doe</span>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-box">
+            <p class="testimonial-text">
+                I have been using this for a few weeks now and it has completely transformed my workflow.
+            </p>
+            <span class="testimonial-author">- Jane Smith</span>
+        </div>
+        
+    </div>
 
 </body>
-
 </html>
